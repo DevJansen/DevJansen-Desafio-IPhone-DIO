@@ -25,13 +25,12 @@ O projeto simula as seguintes capacidades do iPhone:
 
 
 ### 🌐 Navegador na Internet
-- `exibirPagina(String url)`
+- `exibirPagina()`
 
 ## 🧠 Conceitos Aplicados
 
 - Classe em Java
-- Implementação de múltiplas interfaces por uma única classe
-- Encapsulamento de estado interno (`musicaAtual`, `tocando`)
+- Encapsulamento de estado interno (`adicionarMusica`, `adicionarNumero`)
 - Organização de projeto com pacotes (`package iphone`)
 
 ## 📁 Estrutura de Pastas
