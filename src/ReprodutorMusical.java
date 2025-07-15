@@ -11,11 +11,7 @@ public class ReprodutorMusical {
     }
 
     public void adicionarMusica(String musica) {
-        if (musica != null && !musica.trim().isEmpty()) {
             this.listaDeReproducao.add(musica);
-        } else {
-            System.out.println("Não é possível adicionar música nula ou vazia.");
-        }
     }
 
     public void verListaDeReproducao() {

@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class IPhone {
@@ -56,8 +57,29 @@ public class IPhone {
             }
 
         } else if (menu == 2) {
+            NavegadorInternet safari = new NavegadorInternet();
+            System.out.println("***** Safari *****");
+            System.out.println(" ");
+            sc.nextLine();
+            System.out.println("digite a Url: ");
+            String navegar = sc.nextLine();
+            safari.navegar();
+
 
         } else if (menu == 3) {
+            Ligacao agendaTelefonica = new Ligacao();
+            agendaTelefonica.adicionarNumero("Michael Jackson - 5555-5555");
+            agendaTelefonica.adicionarNumero("Amor - 6666-6666");
+            agendaTelefonica.adicionarNumero("Pai - 5555-5555");
+            agendaTelefonica.adicionarNumero("mãe - 5555-5555");
+
+            System.out.println("***** Meus Contatos *****");
+            agendaTelefonica.listaAgenda();
+            System.out.println("*************************");
+
+            System.out.println("Digite o numera para fazer a ligação: ");
+            int ligacao = sc.nextInt();
+            agendaTelefonica.ligacao();
 
         } else if (menu == 0) {
             System.out.println("Desligando IPhone...");
