@@ -1,4 +1,4 @@
-## Santander Boot Camp 2025
+## Desafio Santander Boot Camp 2025
 # 📱 Projeto iPhone - Programação Orientada a Objetos em Java
 
 Este projeto foi desenvolvido como parte de um desafio de Programação Orientada a Objetos (POO) da plataforma DIO (Digital Innovation One), com foco na modelagem e implementação de um componente de software que simula funcionalidades básicas do iPhone original apresentado por Steve Jobs em 2007.
